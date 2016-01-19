@@ -76,10 +76,10 @@ a { text-decoration: none; }
 .report__box { position: absolute; width: 182px; -webkit-box-shadow: 0 4px 19.5px 1.5px rgba(0, 0, 0, 0.15); box-shadow: 0 4px 19.5px 1.5px rgba(0, 0, 0, 0.15); background-color: #fff; -webkit-border-radius: 4px; border-radius: 4px; color: #fe3f04; font-family: "decimanovaprolt", Arial, sans-serif; font-size: 11px; line-height: 14px; padding: 20px; text-align: center; opacity: 0; }
 .report__box.is-first, .report__box.is-second { top: 10px; }
 .report__box.is-third, .report__box.is-fourth { bottom: 0; }
-.report__box.is-first { left: 10px; -webkit-transition: top 0.5s 0.5s, left 1s 0.5s, opacity 0.5s, visibility 0.2s 0.7s; transition: top 0.5s 0.5s, left 1s 0.5s, opacity 0.5s, visibility 0.2s 0.7s; }
-.report__box.is-second { right: 10px; -webkit-transition: top 0.5s 1.2s, right 1s 1.2s, opacity 0.5s 1s, visibility 0.2s 1.4s; transition: top 0.5s 1.2s, right 1s 1.2s, opacity 0.5s 1s, visibility 0.2s 1.4s; }
-.report__box.is-third { left: 125px; -webkit-transition-delay: 0.8s; transition-delay: 0.8s; -webkit-transition: bottom 0.5s 2.2s, left 1s 2.2s, opacity 0.2s 2s, visibility 0.2s 2.4s; transition: bottom 0.5s 2.2s, left 1s 2.2s, opacity 0.2s 2s, visibility 0.2s 2.4s; }
-.report__box.is-fourth { right: 125px; -webkit-transition-delay: 1.2s; transition-delay: 1.2s; -webkit-transition: bottom 0.5s 3.2s, right 1s 3.2s, opacity 0.2s 3s, visibility 0.2s 3.4s; transition: bottom 0.5s 3.2s, right 1s 3.2s, opacity 0.2s 3s, visibility 0.2s 3.4s; }
+.report__box.is-first { left: 10px; -webkit-transition: top 0.5s 2.5s, left 1s 2.5s, opacity 0.5s, visibility 0.2s 2.7s; transition: top 0.5s 2.5s, left 1s 2.5s, opacity 0.5s, visibility 0.2s 2.7s; }
+.report__box.is-second { right: 10px; -webkit-transition: top 0.5s 5.2s, right 1s 5.2s, opacity 0.5s 3s, visibility 0.2s 5.4s; transition: top 0.5s 5.2s, right 1s 5.2s, opacity 0.5s 3s, visibility 0.2s 5.4s; }
+.report__box.is-third { left: 125px; -webkit-transition-delay: 0.8s; transition-delay: 0.8s; -webkit-transition: bottom 0.5s 8.2s, left 1s 8.2s, opacity 0.2s 5.5s, visibility 0.2s 8.4s; transition: bottom 0.5s 8.2s, left 1s 8.2s, opacity 0.2s 5.5s, visibility 0.2s 8.4s; }
+.report__box.is-fourth { right: 125px; -webkit-transition-delay: 1.2s; transition-delay: 1.2s; -webkit-transition: bottom 0.5s 11.2s, right 1s 11.2s, opacity 0.2s 8.5s, visibility 0.2s 11.4s; transition: bottom 0.5s 11.2s, right 1s 11.2s, opacity 0.2s 8.5s, visibility 0.2s 11.4s; }
 
 .blank { width: 214px; height: 303px; background-color: #e7edf8; -webkit-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 4px 19.5px 1.5px rgba(0, 0, 0, 0.15); box-shadow: 0 4px 19.5px 1.5px rgba(0, 0, 0, 0.15); margin: 0 auto; padding: 18px 17px 10px; }
 .blank__title { color: #3c71db; font-size: 13px; line-height: 26px; text-transform: uppercase; font-family: "decimamonopro", Arial, sans-serif; letter-spacing: 0.05em; font-weight: bold; }
@@ -88,10 +88,10 @@ a { text-decoration: none; }
 .blank__box { float: left; background-repeat: no-repeat; -webkit-transition: opacity 0.3s; transition: opacity 0.3s; opacity: 0; }
 .blank__box.is-first, .blank__box.is-second { height: 79px; background-position: left top; }
 .blank__box.is-third, .blank__box.is-fourth { background-position: top left; height: 99px; }
-.blank__box.is-first { background-image: url(../img/blank-box1.png); width: 100px; -webkit-transition-delay: 0.9s; transition-delay: 0.9s; }
-.blank__box.is-second { background-image: url(../img/blank-box2.png); width: 77px; -webkit-transition-delay: 1.6s; transition-delay: 1.6s; }
-.blank__box.is-third { background-image: url(../img/blank-box3.png); width: 128px; -webkit-transition-delay: 2.6s; transition-delay: 2.6s; }
-.blank__box.is-fourth { background-image: url(../img/blank-box4.png); width: 52px; -webkit-transition-delay: 3.6s; transition-delay: 3.6s; }
+.blank__box.is-first { background-image: url(../img/blank-box1.png); width: 100px; -webkit-transition-delay: 2.9s; transition-delay: 2.9s; }
+.blank__box.is-second { background-image: url(../img/blank-box2.png); width: 77px; -webkit-transition-delay: 5.6s; transition-delay: 5.6s; }
+.blank__box.is-third { background-image: url(../img/blank-box3.png); width: 128px; -webkit-transition-delay: 8.6s; transition-delay: 8.6s; }
+.blank__box.is-fourth { background-image: url(../img/blank-box4.png); width: 52px; -webkit-transition-delay: 11.6s; transition-delay: 11.6s; }
 
 .sections.bg-fixed .section { background-attachment: fixed; }
 .sections.bg-scroll .section { background-attachment: scroll; }
