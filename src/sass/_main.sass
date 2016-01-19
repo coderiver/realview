@@ -57,7 +57,7 @@
 		background-color: #fff
 		border-radius: 4px
 		color: #fe3f04
-		+dlt
+		+rreg
 		font-size: 11px
 		line-height: 14px
 		padding: 20px
@@ -96,7 +96,7 @@
 		font-size: 13px
 		line-height: 26px
 		text-transform: uppercase
-		+dreg
+		+dlt
 		letter-spacing: 0.05em
 		font-weight: bold
 	&__row
@@ -151,7 +151,7 @@
 		min-height: 610px
 	+r1
 		min-height: 1px
-		padding: 50px 15px 
+		padding: 50px 15px !important
 	&.is-first
 		background-image: url(../img/device1.png)
 		+rh(780)
@@ -219,15 +219,6 @@
 			max-width: 266px
 		img
 			width: 100%
-			display: none
-			&.is-desk
-				+r1
-					display: block
-				+r2
-					display: none
-			&.is-mob
-				+r2
-					display: block
 	&__button
 		display: none
 		text-align: center
@@ -261,7 +252,7 @@
 		max-width: 1068px
 		font-size: 0
 		margin: 0 auto
-		padding: 140px 0
+		padding: 100px 0
 		+r1
 			padding: 40px 0
 		+r3
@@ -324,7 +315,7 @@
 		max-width: 1280px
 		font-size: 0
 		margin: 0 auto
-		padding: 140px 0 70px
+		padding: 80px 0 0
 		+r1
 			max-width: 600px
 			padding: 80px 0 60px
@@ -334,7 +325,7 @@
 			width: 33.33%
 			display: inline-block
 			vertical-align: top
-			padding: 0 10px 120px
+			padding: 20px 10px 100px
 			+r1
 				width: 50%
 				padding: 0 10px 40px
@@ -381,18 +372,18 @@
 		color: #262626
 		font-size: 15px
 		line-height: 24px
-		+dreg
+		+dreg 
 
 .tech
-	overflow: hidden
+	// overflow: hidden
 	position: relative
 	&__inner
 		position: relative
 		+clr
 		max-width: 1200px
-		padding: 105px 15px 100px
+		padding: 190px 15px 100px
 		margin: 0 auto
-		min-height: 673px
+		min-height: 688px
 		+r1
 			min-height: 1px
 			padding: 0 15px
@@ -421,15 +412,15 @@
 					
 	&__img
 		position: absolute
-		left: 640px
-		bottom: 0
+		left: 600px
+		bottom: -70px
 		font-size: 0
 		+r1
 			position: relative
 			left: auto
 			bottom: auto
 			width: 530px
-			margin: 0 auto
+			margin: 0 auto -35px
 			padding: 0 20px
 		img
 			+r1
@@ -437,7 +428,7 @@
 
 .contacts
 	background-color: #eaeef4
-	padding: 50px 15px 100px
+	padding: 50px 15px
 	text-align: center
 	+r2
 		display: none
@@ -453,7 +444,7 @@
 	max-width: 880px
 	margin: 0 auto
 	&__row
-		margin: 0 -10px 30px
+		margin: 0 -10px
 		+clr
 	&__col
 		width: 33.33%
@@ -461,6 +452,12 @@
 		float: left
 	&__button
 		text-align: center
+	&__success
+		color: #1958d7
+		+dreg
+		font-size: 15px
+		line-height: 23px
+		padding: 30px 0 0
 
 .footer
 	background-color: #144fc3
@@ -532,7 +529,7 @@
 				&.icon-fb
 					font-size: 19px
 				&.icon-tw
-					font-size: 13px
+					font-size: 14px
 
 .copy
 	color: #fff
@@ -544,3 +541,14 @@
 		color: #fff
 		&:hover
 			text-decoration: underline
+
+.error-block
+	text-align: center
+	color: #fe9879
+	+dreg
+	font-size: 11px
+	font-weight: 700
+	line-height: 23px
+	text-transform: uppercase
+	letter-spacing: -0.01em
+	padding: 3px 0
