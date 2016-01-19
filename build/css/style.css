@@ -242,7 +242,8 @@ a { text-decoration: none; }
  .block__list li{ width: 100%; }
  .details__list{ max-width: 500px; }
  .details__list li{ width: 100%; }
- .contacts{ display: none; }
+ .form{ max-width: 400px; }
+ .form__col{ width: 100%; }
  .footer__inner{ max-width: 500px; margin: 0 auto; padding: 50px 27px; }
  .footer__box{ width: 100%; max-width: 100%; float: none; padding-bottom: 30px; }
  .footer__social{ padding-bottom: 30px; } }
