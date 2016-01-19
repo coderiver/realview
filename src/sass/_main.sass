@@ -37,7 +37,8 @@
 	&.is-visible
 		.report
 			&__box
-				opacity: 0
+				opacity: 1
+				visibility: hidden
 				&.is-first, &.is-second
 					top: 50px
 				&.is-third, &.is-fourth
@@ -61,6 +62,7 @@
 		line-height: 14px
 		padding: 20px
 		text-align: center
+		opacity: 0
 		+r1
 			display: none
 		&.is-first, &.is-second
@@ -69,18 +71,18 @@
 			bottom: 0
 		&.is-first
 			left: 10px
-			transition: top 0.5s, left 1s, opacity 0.2s 0.4s
+			transition: top 0.5s 0.5s, left 1s 0.5s, opacity 0.5s, visibility 0.2s 0.7s
 		&.is-second
 			right: 10px
-			transition: top 0.5s 0.9s, right 1s 0.9s, opacity 0.2s 1.1s 
+			transition: top 0.5s 1.2s, right 1s 1.2s, opacity 0.5s 1s, visibility 0.2s 1.4s
 		&.is-third
 			left: 125px
 			transition-delay: 0.8s
-			transition: bottom 0.5s 1.3s, left 1s 1.3s, opacity 0.2s 1.5s
+			transition: bottom 0.5s 2.2s, left 1s 2.2s, opacity 0.2s 2s, visibility 0.2s 2.4s
 		&.is-fourth
 			right: 125px
 			transition-delay: 1.2s
-			transition: bottom 0.5s 1.7s, right 1s 1.7s, opacity 0.2s 1.9s
+			transition: bottom 0.5s 3.2s, right 1s 3.2s, opacity 0.2s 3s, visibility 0.2s 3.4s
 .blank
 	width: 214px
 	height: 303px
@@ -116,19 +118,19 @@
 		&.is-first
 			background-image: url(../img/blank-box1.png)
 			width: 100px
-			transition-delay: 0.5s
+			transition-delay: 0.9s
 		&.is-second
 			background-image: url(../img/blank-box2.png)
 			width: 77px
-			transition-delay: 1.1s
+			transition-delay: 1.6s
 		&.is-third
 			background-image: url(../img/blank-box3.png)
 			width: 128px
-			transition-delay: 1.5s
+			transition-delay: 2.6s
 		&.is-fourth
 			background-image: url(../img/blank-box4.png)
 			width: 52px
-			transition-delay: 1.9s
+			transition-delay: 3.6s
 
 .sections
 	&.bg-fixed
@@ -144,12 +146,17 @@
 	background-color: #e8eaec
 	padding: 250px 15px 100px
 	min-height: 930px
-	padding: 100px 15px 0
+	+rh(780)
+		padding: 140px 15px 140px
+		min-height: 610px
 	+r1
 		min-height: 1px
+		padding: 50px 15px 
 	&.is-first
 		background-image: url(../img/device1.png)
 		+rh(780)
+			background-image: url(../img/device1x05.png)
+		+r(1280)
 			background-image: url(../img/device1x05.png)
 		+r1
 			background: none !important
@@ -157,11 +164,15 @@
 		background-image: url(../img/device2.png)
 		+rh(780)
 			background-image: url(../img/device2x05.png)
+		+r(1280)
+			background-image: url(../img/device2x05.png)
 		+r1
 			background: none !important
 	&.is-third
 		background-image: url(../img/device3.png)
 		+rh(780)
+			background-image: url(../img/device3x05.png)
+		+r(1280)
 			background-image: url(../img/device3x05.png)
 		+r1
 			background: none !important
@@ -179,31 +190,48 @@
 		.box
 			width: 580px
 			float: right
+			+r(1280)
+				width: 380px
 			+rh(780)
-				width: 500px
+				width: 380px
 			+r1
 				float: none
-				width: auto !important
 				margin: 0 auto
+				width: 460px
+			+r2
+				width: 266px
 			.btn
 				+r1
 					display: none
+			h4, p
+				max-width: 380px 
 	&__ipad
 		box-shadow: 0 0 101px rgba(0, 0, 0, 0.2)
-		max-width: 266px
 		margin: 0 auto
 		display: none
 		font-size: 0
 		clear: both
-		border-radius: 15px
+		border-radius: 30px
 		+r1
 			display: block
+		+r2
+			border-radius: 15px
+			max-width: 266px
 		img
 			width: 100%
+			display: none
+			&.is-desk
+				+r1
+					display: block
+				+r2
+					display: none
+			&.is-mob
+				+r2
+					display: block
 	&__button
 		display: none
 		text-align: center
-		padding: 80px 0 100px
+		padding: 80px 0 50px
 		+r1
 			display: block
 			
@@ -432,10 +460,11 @@
 		max-width: 1200px
 		margin: 0 auto
 		+r1
-			padding: 70px 27px 220px
+			padding: 70px 27px 50px
 		+r2
 			max-width: 500px
 			margin: 0 auto
+			padding: 50px 27px 
 	&__info
 		+clr
 		margin-bottom: 105px
@@ -455,12 +484,17 @@
 			width: 100%
 			max-width: 100%
 			float: none
+			padding-bottom: 30px
 		li
 			letter-spacing: -0.01em
 			font-size: 13px
 			color: #fff
 			line-height: 23px
 			+dreg
+			a
+				color: #fff 
+				&:hover
+					text-decoration: underline
 
 	&__social
 		width: 19%
@@ -469,6 +503,8 @@
 		+r1
 			width: 100%
 			padding: 0 0 50px
+		+r2
+			padding-bottom: 30px
 		li
 			display: inline-block
 			vertical-align: middle
@@ -495,3 +531,7 @@
 	letter-spacing: -0.01em
 	font-size: 9px
 	line-height: 23px
+	a
+		color: #fff
+		&:hover
+			text-decoration: underline

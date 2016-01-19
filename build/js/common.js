@@ -31,4 +31,15 @@ $(document).ready(function() {
 		sectionFixed();
 	});
 
+	$('.js-scroll-to').click(function() {
+		var id = $(this).data('scroll');
+
+		$('html, body').animate({
+			scrollTop: $('.js-scroll[data-block="' + id + '"]').offset().top
+		}, 2000);
+
+		return falst;
+
+	});
+
 });
