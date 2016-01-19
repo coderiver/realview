@@ -144,7 +144,7 @@ a { text-decoration: none; }
 .details__icon i { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; }
 .details__text { max-width: 325px; margin: 0 auto; color: #262626; font-size: 15px; line-height: 24px; font-family: "decimamonopro", Arial, sans-serif; }
 
-.tech { position: relative; }
+.tech { overflow: hidden; position: relative; }
 .tech__inner { position: relative; *zoom: 1; max-width: 1200px; padding: 190px 15px 100px; margin: 0 auto; min-height: 688px; }
 .tech__inner:after { content: " "; display: table; clear: both; }
 .tech__inner .box { text-align: right; max-width: 540px; *zoom: 1; }
