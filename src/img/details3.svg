@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Small" sketch:type="MSArtboardGroup" transform="translate(-480.000000, -80.000000)">
+            <g id="3" sketch:type="MSLayerGroup" transform="translate(480.000000, 80.000000)">
+                <rect id="Rectangle-50" opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="80"></rect>
+                <path d="M58.7096153,40.5978652 C58.8993496,41.3673577 59,42.1719248 59,43 C59,48.5228475 54.5228475,53 49,53 C47.7296332,53 46.5145934,52.7631169 45.3966421,52.3311123 C43.7654471,53.979085 41.5019473,55 39,55 C36.1986556,55 33.6962412,53.7201288 32.0456024,51.713232 C30.9032281,52.5236287 29.5072453,53 28,53 C24.6654239,53 21.8754284,50.6683733 21.1714132,47.5465198 C17.5865862,46.3607064 15,42.982418 15,39 L15,39 C15,35.017582 17.5865862,31.6392936 21.1714132,30.4534802 C21.8754284,27.3316267 24.6654239,25 28,25 C29.5072453,25 30.9032281,25.4763713 32.0456024,26.286768 C33.6962412,24.2798712 36.1986556,23 39,23 C41.5019473,23 43.7654471,24.020915 45.3966421,25.6688877 C46.5145934,25.2368831 47.7296332,25 49,25" id="Oval-25" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M26,53 L26,62" id="Path-32" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M45,53 L45,62" id="Path-32-Copy-2" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M32,53 L32,62" id="Path-32-Copy" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M63,34 C63,37.8659932 59.8659932,41 56,41 C52.1340068,41 49,37.8659932 49,34 L49,24.992017 C49,23.8918564 49.8970601,23 51.0058587,23 L60.9941413,23 C62.1019465,23 63,23.9001762 63,24.992017 L63,34 Z" id="Oval-30" stroke="#134FC3" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <path d="M51,53 L51,62" id="Path-32-Copy-3" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M43,25 C43,28.3137085 45.6862915,31 49,31 C49,27.6862915 46.3137085,25 43,25 Z" id="Oval-31-Copy-2" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" transform="translate(46.000000, 28.000000) scale(-1, 1) translate(-46.000000, -28.000000) "></path>
+                <path d="M63,25 C63,28.3137085 65.6862915,31 69,31 C69,27.6862915 66.3137085,25 63,25 Z" id="Oval-31-Copy-3" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M14.0000006,14.0000006 L66,66" id="Path-36" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-24" stroke="#134FC3" stroke-width="2" sketch:type="MSShapeGroup" cx="40" cy="40" r="37"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

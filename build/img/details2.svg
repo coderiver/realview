@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Small" sketch:type="MSArtboardGroup" transform="translate(-320.000000, -80.000000)">
+            <g id="2" sketch:type="MSLayerGroup" transform="translate(320.000000, 80.000000)">
+                <rect id="Rectangle-49" opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="80"></rect>
+                <path d="M74,34.0000002 L74,75.0090859 C74,76.1086374 73.0952759,77 71.9967014,77 L12.0032986,77 C10.8969073,77 10,76.1017394 10,75.0020869 L10,71" id="Rectangle-47" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M68,40 L68,69.0090859 C68,70.1086374 67.0952759,71 65.9967014,71 L6.00329863,71 C4.89690735,71 4,70.1109357 4,69.0090859 L4,22.9909141 C4,21.8913626 4.89978493,21 6.00228533,21 L37,21" id="Rectangle-47" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-1" stroke="#134FC3" stroke-width="2" sketch:type="MSShapeGroup" cx="57" cy="23" r="20"></circle>
+                <path d="M57,3 L57,23.006249 L43.0031242,37.0031249" id="Path-29" stroke="#134FC3" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <path d="M50,63 L62,63 L47,49 L41.3103448,54.3103448" id="Path-30-Copy" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M10,63 L50,63 L30,43 L10,63 Z" id="Path-30" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-22" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="16" cy="33" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

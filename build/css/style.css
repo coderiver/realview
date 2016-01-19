@@ -119,9 +119,9 @@ a { text-decoration: none; }
 .block__list li { width: 33.33%; display: inline-block; vertical-align: top; padding: 0 10px 40px; }
 .block__icon { width: 200px; height: 200px; margin: 0 auto 30px; }
 .block__icon.is-trial, .block__icon.is-setup { -webkit-transform: translateX(10%); -ms-transform: translateX(10%); transform: translateX(10%); }
-.block__icon.is-trial i { background-image: url(../img/block-icon1.png); }
-.block__icon.is-setup i { background-image: url(../img/block-icon2.png); }
-.block__icon.is-pricing i { background-image: url(../img/block-icon3.png); }
+.block__icon.is-trial i { background-image: url(../img/block-icon1.png); background-image: url(../img/block-icon1.svg); }
+.block__icon.is-setup i { background-image: url(../img/block-icon2.png); background-image: url(../img/block-icon2.svg); }
+.block__icon.is-pricing i { background-image: url(../img/block-icon3.png); background-image: url(../img/block-icon3.svg); }
 .block__icon i { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; }
 .block__text { color: #144fc3; font-size: 20px; font-family: "decimamonopro", Arial, sans-serif; line-height: 1; }
 
@@ -132,12 +132,12 @@ a { text-decoration: none; }
 .details__list { max-width: 1280px; font-size: 0; margin: 0 auto; padding: 140px 0 70px; }
 .details__list li { width: 33.33%; display: inline-block; vertical-align: top; padding: 0 10px 120px; }
 .details__icon { width: 80px; height: 80px; margin: 0 auto 30px; }
-.details__icon.is-one i { background-image: url(../img/details1.png); }
-.details__icon.is-two i { background-image: url(../img/details2.png); }
-.details__icon.is-three i { background-image: url(../img/details3.png); }
-.details__icon.is-four i { background-image: url(../img/details4.png); }
-.details__icon.is-five i { background-image: url(../img/details5.png); }
-.details__icon.is-six i { background-image: url(../img/details6.png); }
+.details__icon.is-one i { background-image: url(../img/details1.png); background-image: url(../img/details1.svg); }
+.details__icon.is-two i { background-image: url(../img/details2.png); background-image: url(../img/details2.svg); }
+.details__icon.is-three i { background-image: url(../img/details3.png); background-image: url(../img/details3.svg); }
+.details__icon.is-four i { background-image: url(../img/details4.png); background-image: url(../img/details4.svg); }
+.details__icon.is-five i { background-image: url(../img/details5.png); background-image: url(../img/details5.svg); }
+.details__icon.is-six i { background-image: url(../img/details6.png); background-image: url(../img/details6.svg); }
 .details__icon i { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; }
 .details__text { max-width: 325px; margin: 0 auto; color: #262626; font-size: 15px; line-height: 24px; font-family: "decimamonopro", Arial, sans-serif; }
 

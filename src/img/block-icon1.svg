@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Big" sketch:type="MSArtboardGroup" transform="translate(-800.000000, -400.000000)">
+            <g id="1" sketch:type="MSLayerGroup" transform="translate(800.000000, 400.000000)">
+                <rect id="Rectangle-107-Copy-2" opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="200" height="200"></rect>
+                <path d="M2,120 L2,149.994677 C2,153.311325 4.68539446,156.000369 8.009446,156.000825 L132.000002,156.017851" id="Path-106" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M40,38 L40,18" id="Rectangle-80" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M124,38 L124,18" id="Rectangle-80-Copy-2" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M2,120 L30,148" id="Path-104" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M18,120 L18,108 L34,108 L34,124 L30,124" id="Rectangle-80-Copy-6" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M130,119 L130,108 L139,108" id="Rectangle-80-Copy-10" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M28,165 L44,165" id="Path-10-Copy-3" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M76,165 L130,165" id="Path-10-Copy-5" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M51,173 L87,173" id="Path-10-Copy-4" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M50,165 L52,165" id="Path-10-Copy-7" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M113,173 L115,173" id="Path-10-Copy-10" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M57.9999999,165 L69.9999999,165" id="Path-10-Copy-8" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M93,173 L107,173" id="Path-10-Copy-9" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-59" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="162" cy="136" r="36"></circle>
+                <circle id="Oval-59" stroke="#89A7E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="162" cy="136" r="30"></circle>
+                <path d="M162,116 L162,132 M165,139 L176,150" id="Path-99" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <ellipse id="Oval-54" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="40" cy="38" rx="4" ry="4"></ellipse>
+                <ellipse id="Oval-54-Copy" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="124" cy="38" rx="4" ry="4"></ellipse>
+                <circle id="Oval-53" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="162" cy="136" r="4"></circle>
+                <path d="M128,148 L30,148 L30,126.006702 C30,122.689292 27.3152423,120 23.9932975,120 L2,120 L2,32.0051618 C2,28.6886025 4.67668944,26 8.0042685,26 L155.995731,26 C159.311797,26 162,28.6774167 162,31.993048 L162,100" id="Rectangle-12" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M2,50 L162,50" id="Path-103" stroke="#134FC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <g id="Group" transform="translate(18.000000, 70.000000)" stroke-width="2" sketch:type="MSShapeGroup" stroke-linecap="round" stroke-linejoin="round">
+                    <rect id="Rectangle-80" stroke="#89A7E1" x="0" y="2" width="16" height="16"></rect>
+                    <rect id="Rectangle-80-Copy" stroke="#134FC3" x="26" y="0" width="20" height="20"></rect>
+                    <rect id="Rectangle-80-Copy-3" stroke="#89A7E1" x="56" y="2" width="16" height="16"></rect>
+                    <rect id="Rectangle-80-Copy-4" stroke="#89A7E1" x="84" y="2" width="16" height="16"></rect>
+                    <rect id="Rectangle-80-Copy-5" stroke="#89A7E1" x="112" y="2" width="16" height="16"></rect>
+                    <rect id="Rectangle-80-Copy-7" stroke="#89A7E1" x="28" y="38" width="16" height="16"></rect>
+                    <rect id="Rectangle-80-Copy-8" stroke="#89A7E1" x="56" y="38" width="16" height="16"></rect>
+                    <rect id="Rectangle-80-Copy-9" stroke="#89A7E1" x="84" y="38" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
