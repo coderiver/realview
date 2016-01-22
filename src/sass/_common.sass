@@ -124,22 +124,29 @@ a
 		background-color: #144fc3
 		color: #fff
 
-.input
+.input, .textarea
 	width: 100%
 	height: 64px
 	background-color: #fff
 	border-radius: 4px
 	text-align: center
-	padding: 0 15px
+	padding: 24px 25px
 	font-size: 15px
 	+dreg
 	font-weight: bold
 	text-transform: uppercase
 	color: #262626
 	letter-spacing: -0.01em
+	border: none
 	&:placeholder
 		color: #cfdcf4
 	&:focus
 		box-shadow: inset 0 0 0 2px #cfdcf4
 	&.is-error
 		box-shadow: inset 0 0 0 1px #fe9879
+
+.textarea
+	height: 220px
+	resize: none
+	text-align: left
+	display: block
