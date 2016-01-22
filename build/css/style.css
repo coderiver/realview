@@ -60,7 +60,7 @@ a { text-decoration: none; }
 .input:focus { -webkit-box-shadow: inset 0 0 0 2px #cfdcf4; box-shadow: inset 0 0 0 2px #cfdcf4; }
 .input.is-error { -webkit-box-shadow: inset 0 0 0 1px #fe9879; box-shadow: inset 0 0 0 1px #fe9879; }
 
-.header { background: url(../img/header.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; text-align: center; padding: 16px 11px 94px; }
+.header { background: url(../img/header.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; text-align: center; padding: 16px 11px 94px; }
 .header h1 { margin-bottom: 17px; }
 .header h4 { font-family: "roboto-regular", Arial, sans-serif; color: #fff; max-width: 560px; margin: 0 auto 55px; letter-spacing: 0.01em; }
 
@@ -152,7 +152,7 @@ a { text-decoration: none; }
 .tech__inner .box h3 { padding-top: 63px; }
 .tech__inner .box h3:before { position: absolute; top: 0; right: 0; }
 .tech__inner .box p { max-width: 465px; float: right; }
-.tech__img { position: absolute; left: 600px; bottom: -70px; font-size: 0; }
+.tech__img { position: absolute; left: 600px; bottom: 0; font-size: 0; }
 
 .contacts { background-color: #eaeef4; padding: 50px 15px; text-align: center; }
 .contacts .box h3:before { margin: 0 auto; }
@@ -220,7 +220,7 @@ a { text-decoration: none; }
  .tech__inner .box{ text-align: center; max-width: 500px; margin: 0 auto; }
  .tech__inner .box h3:before{ position: relative; margin: 0 auto; }
  .tech__inner .box p{ float: none; }
- .tech__img{ position: relative; left: auto; bottom: auto; width: 530px; margin: 0 auto -35px; padding: 0 20px; }
+ .tech__img{ position: relative; left: auto; bottom: auto; width: 530px; margin: 0 auto; padding: 0 20px; }
  .tech__img img{ width: 100%; }
  .footer__inner{ padding: 70px 27px 50px; }
  .footer__info{ margin-bottom: 0; }
