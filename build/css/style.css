@@ -101,7 +101,7 @@ a { text-decoration: none; }
 .sections.bg-fixed .section { background-attachment: fixed; }
 .sections.bg-scroll .section { background-attachment: scroll; }
 
-.section { background-position: 50%; background-repeat: no-repeat; background-color: #e8eaec; padding: 250px 15px 100px; min-height: 930px; }
+.section { background-position: 50%; background-repeat: no-repeat; background-color: #e8eaec; padding: 250px 15px 100px; min-height: 100vh; }
 .section.is-first { background-image: url(../img/device1.png); }
 .section.is-second { background-image: url(../img/device2.png); }
 .section.is-third { background-image: url(../img/device3.png); }
@@ -232,7 +232,7 @@ a { text-decoration: none; }
  .footer__social li{ width: auto; margin-right: 40px; } }
 
 @media only screen and (max-height: 780px){
- .section{ padding: 140px 15px 140px; min-height: 610px; }
+ .section{ padding: 140px 15px 140px; }
  .section.is-first{ background-image: url(../img/device1x05.png); }
  .section.is-second{ background-image: url(../img/device2x05.png); }
  .section.is-third{ background-image: url(../img/device3x05.png); }
