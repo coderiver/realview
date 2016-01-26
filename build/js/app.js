@@ -33,18 +33,17 @@ $(document).ready(function() {
 	};
 
 	function sectionFixed() {
-		$('.js-sections').each(function() {
-			if ($(window).scrollTop() + $(window).height()/2 >= $(this).find('.section').first().offset().top + ($(this).find('.section').first().outerHeight()/2)) {
-				$(this).removeClass('bg-scroll');
-				$(this).addClass('bg-fixed');
-				if ($(window).scrollTop() + $(window).height()/2 >= $(this).find('.section').last().offset().top + ($(this).find('.section').last().outerHeight()/2)) {
-					$(this).removeClass('bg-fixed')
-				};
-			}
-			else {
-				$(this).removeClass('bg-fixed');
-			}
-		});
+		if ($(window).scrollTop() + $(window).height()/2 >= $('.section').first().offset().top + ($('.section').first().outerHeight()/2)) {
+			$('.js-sections').removeClass('bg-scroll');
+			$('.js-sections').addClass('bg-fixed');
+			if ($(window).scrollTop() + $(window).height()/2 >= $('.section').last().offset().top + ($('.section').last().outerHeight()/2)) {
+				$('.js-sections').removeClass('bg-fixed')
+			};
+		}
+		else {
+			$('.js-sections').removeClass('bg-fixed');
+		}
+		console.log($(window).scrollTop() + $(window).height()/2, $('.section').first().offset().top + ($('.section').first().outerHeight()/2), $('.section').last().offset().top + ($('.section').last().outerHeight()/2))
 	}
 
 	visibleElements();
