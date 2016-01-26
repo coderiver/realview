@@ -37,8 +37,8 @@ $(document).ready(function() {
 			scrollTop: $('.js-scroll[data-block="' + id + '"]').offset().top
 		}, 2000);
 
-		return falst;
+		return false;
 
-	});
+	}); 
 
 });
