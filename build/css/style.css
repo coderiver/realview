@@ -55,10 +55,12 @@ a { text-decoration: none; }
 .btn { display: inline-block; vertical-align: top; width: 160px; height: 60px; background-color: #cfdcf4; -webkit-border-radius: 6px; border-radius: 6px; line-height: 60px; text-align: center; color: #1958d7; font-size: 15px; text-transform: uppercase; font-family: "decimamonopro", Arial, sans-serif; font-weight: bold; cursor: pointer; }
 .btn:hover { background-color: #144fc3; color: #fff; }
 
-.input { width: 100%; height: 64px; background-color: #fff; -webkit-border-radius: 4px; border-radius: 4px; text-align: center; padding: 0 15px; font-size: 15px; font-family: "decimamonopro", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #262626; letter-spacing: -0.01em; }
-.input:placeholder { color: #cfdcf4; }
-.input:focus { -webkit-box-shadow: inset 0 0 0 2px #cfdcf4; box-shadow: inset 0 0 0 2px #cfdcf4; }
-.input.is-error { -webkit-box-shadow: inset 0 0 0 1px #fe9879; box-shadow: inset 0 0 0 1px #fe9879; }
+.input, .textarea { width: 100%; height: 64px; background-color: #fff; -webkit-border-radius: 4px; border-radius: 4px; text-align: center; padding: 24px 25px; font-size: 15px; font-family: "decimamonopro", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #262626; letter-spacing: -0.01em; border: none; }
+.input:placeholder, .textarea:placeholder { color: #cfdcf4; }
+.input:focus, .textarea:focus { -webkit-box-shadow: inset 0 0 0 2px #cfdcf4; box-shadow: inset 0 0 0 2px #cfdcf4; }
+.input.is-error, .textarea.is-error { -webkit-box-shadow: inset 0 0 0 1px #fe9879; box-shadow: inset 0 0 0 1px #fe9879; }
+
+.textarea { height: 220px; resize: none; text-align: left; display: block; }
 
 .header { background: url(../img/header.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; text-align: center; padding: 16px 11px 94px; }
 .header h1 { margin-bottom: 17px; }
@@ -164,6 +166,7 @@ a { text-decoration: none; }
 .form__col { width: 33.33%; padding: 0 10px 20px; float: left; }
 .form__button { text-align: center; }
 .form__success { color: #1958d7; font-family: "decimamonopro", Arial, sans-serif; font-size: 15px; line-height: 23px; padding: 30px 0 0; }
+.form__textarea { padding-bottom: 25px; }
 
 .footer { background-color: #144fc3; }
 .footer__inner { padding: 115px 15px 50px; max-width: 1200px; margin: 0 auto; }
